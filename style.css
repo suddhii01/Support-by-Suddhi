@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+
+    background-image: url("/images/img.0.jpg");
+    background-position: center;
+    background-size: cover;
+    /* height: 100vh; */
+    /* background: linear-gradient(to top, red 50%, blue 50%); */
+    
+}
+.navbtn{
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+}
+a:hover{
+    color:white;
+}
+.my-navbar{
+    width: 100%;
+    float: left;
+    position: sticky;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    color:black;
+    height: 100%;
+    font-size: 40px;
+    font-family: Montserrat;
+    padding-left: 20px;
+    float: left;
+    text-shadow: 2px 2px 5px red;
+
+}
+.menu{
+    width: 100%;
+    float: left;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+li{
+    list-style: none;
+    margin-left: 62px; 
+    /* margin-top: 27px; */
+    font-size: 14px;
+}
+
+.btn{
+    margin: auto 20px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+.btn:hover {
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+#social-links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 25, 25, 0.8);
+}
+
+.fab{
+    color: white;
+}
+
